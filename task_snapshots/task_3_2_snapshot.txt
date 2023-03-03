@@ -1,3 +1,4 @@
 {
     "error": "La validació ha fallat: Ja has votat en aquesta enquesta"
 }
+ 
