@@ -24,7 +24,9 @@ public class Tasca_5 {
 			
 
 			JSONObject result = new JSONObject(output.substring(1));
-			System.out.println(result.getString("content"));
+			String content = result.getString("content");
+			content = content.replaceAll("<[^>]*>", "");
+			System.out.println(content);
 			
 			String id = result.getString("id");
 			
